@@ -1,0 +1,7 @@
+@import url("standarts/_tailwind.css");
+@import url("standarts/container.css");
+@import url("standarts/headings.css");
+
+body{
+    @apply bg-black;
+}

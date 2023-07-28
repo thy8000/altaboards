@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-bold
+}
+
+h1 {
+    @apply text-4xl leading-5 pt-2 pb-2
+}
+
+h2 {
+    @apply text-[1.5em] leading-8 my-[0.83em]
+}
+
+h3 {
+    @apply text-[1.17em] leading-[1.4rem] my-[1em]
+}
+
+h4 {
+    @apply text-[1em] leading-6 my-[1.44em]
+}
+
+h5 {
+    @apply text-[0.83em] leading-[1.6rem] my-[1.67em]
+}
+
+h6 {
+    @apply text-[0.67em] leading-7 my-[2.33em]
+}
+
+p {
+    @apply my-[1em] text-lg
+}
+
+figcaption {
+    @apply italic
+}
