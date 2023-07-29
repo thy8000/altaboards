@@ -10,16 +10,20 @@ module.exports = {
     "./includes/components/*.php",
     "./includes/components/**/*.php",
   ],
-  colors: {
-    black: colors.black,
-    white: colors.white,
-    gray: colors.gray,
-  },
   container: {
     center: true,
   },
   theme: {
-    extend: {},
+    colors: {
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      green: colors.green,
+      jade: "#04B571",
+      jaffa: "#F38D3B",
+      midgray: "#5C5C63",
+      apple: "#6C9C44",
+    },
   },
   plugins: [],
 }
