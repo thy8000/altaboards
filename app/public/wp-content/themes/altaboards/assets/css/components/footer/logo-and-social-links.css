@@ -1,0 +1,3 @@
+.footer-social-link:hover .footer-social-link-icon{
+    @apply stroke-white
+}

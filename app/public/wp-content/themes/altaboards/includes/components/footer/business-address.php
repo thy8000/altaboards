@@ -26,8 +26,8 @@ $business_address = [
     <?php
     foreach($business_address as $address){
     ?>
-    <span class="text-white">
-        <a class="hover:text-aureolin text-white transition-all duration-500 ease-linear" href="<?php echo $address['link'] ?>" target="_blank">
+    <span class="text-midgray">
+        <a class="hover:text-jade text-midgray transition-all duration-500 ease-linear" href="<?php echo $address['link'] ?>" target="_blank">
             <?php echo $address['label'] ?>
         </a>
     </span>

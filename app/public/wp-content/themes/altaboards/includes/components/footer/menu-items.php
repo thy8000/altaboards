@@ -17,8 +17,8 @@ if(empty($main_menu)){
                 $menu_item_url = $main_menu_item->url;
         ?>
 
-        <li class="text-white">
-            <a class="hover:text-aureolin text-white transition-all duration-500 ease-linear" href="<?php echo esc_url($menu_item_url) ?>">
+        <li class="text-midgray">
+            <a class="text-midgray transition-all duration-500 ease-linear hover:text-jade" href="<?php echo esc_url($menu_item_url) ?>">
                 <?php echo esc_html($main_menu_item->title); ?>
             </a>
         </li>
