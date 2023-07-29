@@ -9,7 +9,7 @@ if (empty($main_menu)) {
 }
 ?>
 
-<header class="sticky top-0 left-0 w-full z-50 shadow-[0px_9px_15px_rgba(0,0,0,0.75)] bg-black">
+<header class="sticky top-0 left-0 w-full z-50 shadow-[0px_9px_15px_rgba(0,0,0,0.75)] bg-white">
     <div class="container px-4 md:px-12">
         <?php
         wp_utils_get_component('header/main-menu-desktop', [

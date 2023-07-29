@@ -12,13 +12,13 @@ $home_url = get_home_url();
         <img class="w-[200px]" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/altaboards-logo.svg') ?>">
     </a>
 
-    <ul class="flex gap-x-6 justify-center items-center font-inter">
+    <ul class="flex gap-x-6 justify-center items-center font-roboto">
         <?php
         foreach ($menu_items as $menu_item) {
             $menu_item_url = $menu_item->url;
         ?>
             <li>
-                <a class="hover:text-aureolin text-white transition-all duration-500 ease-linear" href="<?php echo esc_url($menu_item_url) ?>">
+                <a class="text-midgray transition-all duration-500 ease-linear hover:text-jade" href="<?php echo esc_url($menu_item_url) ?>">
                     <?php echo esc_html($menu_item->title); ?>
                 </a>
             </li>
