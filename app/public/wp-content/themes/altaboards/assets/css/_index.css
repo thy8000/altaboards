@@ -1,9 +1,16 @@
 @import url("standarts/_tailwind.css");
 @import url("standarts/container.css");
 @import url("standarts/headings.css");
+@import url("standarts/fonts.css");
 
 @import url("components/header/main-menu-mobile.css");
 
-body{
-    @apply bg-gray-200;
+@import url("components/footer/logo-and-social-links.css");
+
+@layer base {
+    body {
+        @apply bg-gray-200;
+
+        font-family: 'Lora', 'sans-serif';
+    }
 }
