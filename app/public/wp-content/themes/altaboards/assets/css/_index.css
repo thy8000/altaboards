@@ -7,6 +7,8 @@
 
 @import url("components/footer/logo-and-social-links.css");
 
+@import url("components/front-page/hero.css");
+
 @layer base {
     body {
         @apply bg-gray-200;

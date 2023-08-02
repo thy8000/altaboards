@@ -1,0 +1,7 @@
+.front-page-hero-title strong{
+    @apply text-jade
+}
+
+.front-page-hero-whatsapp-button:hover .front-page-hero-whatsapp-button-icon{
+    @apply stroke-white
+}
