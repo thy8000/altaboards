@@ -24,6 +24,7 @@ module.exports = {
       violet: colors.violet,
       pink: colors.pink,
       amber: colors.amber,
+      stone: colors.stone,
       jade: "#04B571",
       jadeSecondary: "#00BA73",
       jaffa: "#F38D3B",
