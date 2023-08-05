@@ -25,6 +25,7 @@ module.exports = {
       pink: colors.pink,
       amber: colors.amber,
       jade: "#04B571",
+      jadeSecondary: "#00BA73",
       jaffa: "#F38D3B",
       midgray: "#5C5C63",
       apple: "#6C9C44",
