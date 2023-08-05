@@ -8,6 +8,7 @@
 @import url("components/footer/logo-and-social-links.css");
 
 @import url("components/front-page/hero.css");
+@import url("components/front-page/timeline.css");
 
 @layer base {
     body {
