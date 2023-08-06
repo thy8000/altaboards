@@ -8,6 +8,8 @@ wp_utils_get_component('front-page/hero');
 
 wp_utils_get_component('front-page/features');
 
-wp_utils_get_component('front-page/timeline');
+wp_utils_get_component('front-page/supplier-management');
+
+wp_utils_get_component('front-page/services');
 
 wp_utils_get_component('footer/_index');
