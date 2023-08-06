@@ -5,7 +5,7 @@ wp_utils_verify_abspath();
 $features_background_image = get_template_directory_uri() . '/assets/images/front-page-features.png';
 ?>
 
-<section class="bg-gay-100">
+<section class="bg-gray-100">
     <div class="custom-container">
         <div class="flex flex-col-reverse py-16 justify-center lg:flex-row">
             <div class="w-full flex flex-col gap-x-5 lg:w-6/12">
@@ -14,7 +14,7 @@ $features_background_image = get_template_directory_uri() . '/assets/images/fron
                         <?php esc_html_e('Esteja no controle do seu negócio e dos seus clientes, conheça a máxima eficiência da sua empresa.', 'it9-obrasoft') ?>
                     </h2>
 
-                    <h3 class="text-lg font-medium text-midgray lg:max-w-[450px]">
+                    <h3 class="text-lg font-normal text-midgray lg:max-w-[450px]">
                         <?php esc_html_e('A gestão de fornecedores é um pilar essencial para o sucesso de qualquer empresa operar de forma eficiente, competitiva e sustentável no mercado. Conosco, você terá tudo isso de forma simples e eficaz.', 'it9-obrasoft') ?>
                     </h3>
                 </div>
