@@ -12,4 +12,6 @@ wp_utils_get_component('front-page/supplier-management');
 
 wp_utils_get_component('front-page/services');
 
+wp_utils_get_component('front-page/benefits-list');
+
 wp_utils_get_component('footer/_index');
