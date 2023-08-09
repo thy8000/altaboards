@@ -6,7 +6,7 @@ wp_utils_verify_abspath();
     <div class="custom-container">
         <?php 
         wp_utils_get_component('front-page/title-and-embed-video');
-        wp_utils_get_component('front-page/timeline') 
+        wp_utils_get_component('front-page/timeline');
         ?>
     </div>
 </section>
