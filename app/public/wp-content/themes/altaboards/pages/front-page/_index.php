@@ -14,4 +14,6 @@ wp_utils_get_component('front-page/services');
 
 wp_utils_get_component('front-page/benefits-list');
 
+wp_utils_get_component('front-page/plans');
+
 wp_utils_get_component('footer/_index');
