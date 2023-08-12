@@ -28,6 +28,7 @@ module.exports = {
       slate: colors.slate,
       rose: colors.rose,
       yellow: colors.yellow,
+      orange: colors.orange,
       sky: colors.sky,
       jade: "#04B571",
       jadeSecondary: "#00BA73",
