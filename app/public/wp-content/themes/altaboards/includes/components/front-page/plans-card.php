@@ -10,42 +10,49 @@ if (empty($plan)) {
 
 $color = $args['plan']['color'] ?? '';
 
-if($color === 'bg-jade'){
-    $color = 'bg-jade';
-}
-else if($color === 'bg-yellow-500'){
-    $color = 'bg-yellow-500';
-}
-else{
-    $color = 'bg-sky-500';
+if ($color === 'jade') {
+    $bg_color = 'bg-jade';
+    $fill_color = 'fill-jade';
+} else if ($color === 'yellow-500') {
+    $bg_color = 'bg-yellow-500';
+    $fill_color = 'fill-yellow-500';
+} else {
+    $bg_color = 'bg-sky-500';
+    $fill_color = 'fill-sky-500';
 }
 
 ?>
 
-<div class="flex flex-col w-full bg-white rounded-2xl lg:w-4/12">
-    <div class="<?php echo esc_attr($color) ?> w-full rounded-t-2xl py-4">
+<div class="flex flex-col w-full bg-white rounded-2xl shadow-2xl lg:w-4/12">
+    <div class="<?php echo esc_attr($bg_color) ?> w-full rounded-t-2xl py-4">
         <h2 class="text-2xl font-medium text-center my-0 py-3 text-white">
             <?php echo $plan['title'] ?>
         </h2>
     </div>
 
     <div class="p-10">
-        <h3 class="text-base font-medium text-center h-[130px] my-0 text-gray-600">
+        <h3 class="text-base font-medium text-center my-0 text-gray-700 h-full pb-8 lg:pb-0 lg:h-[200px] xl:h-[140px]">
             <?php echo $plan['description'] ?>
         </h3>
 
         <hr>
 
-        <h4 class="text-lg	font-medium text-gray-700">
+        <h4 class="text-lg font-medium text-gray-900">
             <?php echo esc_html_e('Serviços:') ?>
         </h4>
 
-        <ul>
+        <ul class="flex flex-col gap-4">
             <?php
             foreach ($plan['services'] as $service) {
             ?>
-                <li>
-                    <?php echo $service ?>
+                <li class="flex items-center gap-4">
+                    <div>
+                        <?php wp_utils_load_svg('assets/images/plan-card-feature-icon.svg', "w-6 {$fill_color}"); ?>
+                    </div>
+
+                    <div class="font-semibold text-midgray">
+                        <?php echo $service ?>
+                    </div>
                 </li>
             <?php
             }
