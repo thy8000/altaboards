@@ -19,7 +19,11 @@ $benefits_list = [
 
 wp_utils_get_component('header/_index');
 
-wp_utils_get_component('about-us/hero');
+wp_utils_get_component('hero', [
+    'top_title' => esc_html__('Nossa missão é aprimorar e simplificar a maneira como as empresas lidam com seus fornecedores.', 'it9-obrasoft'),
+    'main_title' => esc_html__('Conheça a nossa história', 'it9-obrasoft'),
+    'bottom_title' => esc_html__('Nem todo mundo precisa ser um gestor, mas todo negócio deveria ter acesso à um. Nossa missão é criar isso.', 'it9-obrasoft'),
+]);
 
 wp_utils_get_component('about-us/our-history');
 
