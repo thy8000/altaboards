@@ -664,6 +664,13 @@ body{
   margin-top: 0px;
 }
 
+.line-clamp-2{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .block{
   display: block;
 }
@@ -923,6 +930,14 @@ body{
   border-bottom-width: 1px;
 }
 
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
 .border-\[\#5B6067\]{
   --tw-border-opacity: 1;
   border-color: rgb(91 96 103 / var(--tw-border-opacity));
@@ -936,6 +951,10 @@ body{
 .border-midgray{
   --tw-border-opacity: 1;
   border-color: rgb(92 92 99 / var(--tw-border-opacity));
+}
+
+.border-\[\#0000001a\]{
+  border-color: #0000001a;
 }
 
 .border-b-\[\#f4f0f0\]{
@@ -1504,6 +1523,10 @@ figcaption{
   background-color: transparent;
 }
 
+.hover\:bg-jade\/70:hover{
+  background-color: rgb(4 181 113 / 0.7);
+}
+
 .hover\:text-jade:hover{
   --tw-text-opacity: 1;
   color: rgb(4 181 113 / var(--tw-text-opacity));
@@ -1512,6 +1535,10 @@ figcaption{
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-jade\/70:hover{
+  color: rgb(4 181 113 / 0.7);
 }
 
 @media (min-width: 768px){
@@ -1641,6 +1668,10 @@ figcaption{
 
   .lg\:gap-8{
     gap: 2rem;
+  }
+
+  .lg\:gap-10{
+    gap: 2.5rem;
   }
 
   .lg\:bg-jade\/30{
