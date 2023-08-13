@@ -614,16 +614,16 @@ body{
   top: 0px;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .z-20{
   z-index: 20;
 }
 
 .z-50{
   z-index: 50;
-}
-
-.z-10{
-  z-index: 10;
 }
 
 .my-0{
@@ -648,16 +648,20 @@ body{
   margin-left: -4px;
 }
 
-.mr-2{
-  margin-right: 0.5rem;
+.-mt-\[40px\]{
+  margin-top: -40px;
 }
 
 .mt-16{
   margin-top: 4rem;
 }
 
-.-mt-\[40px\]{
-  margin-top: -40px;
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mt-0{
+  margin-top: 0px;
 }
 
 .block{
@@ -666,10 +670,6 @@ body{
 
 .flex{
   display: flex;
-}
-
-.inline-flex{
-  display: inline-flex;
 }
 
 .hidden{
@@ -744,6 +744,10 @@ body{
   max-width: 250px;
 }
 
+.max-w-\[450px\]{
+  max-width: 450px;
+}
+
 .max-w-\[65ch\]{
   max-width: 65ch;
 }
@@ -756,13 +760,13 @@ body{
   max-width: 900px;
 }
 
-.max-w-\[450px\]{
-  max-width: 450px;
-}
-
 .-translate-y-2\/4{
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .flex-col{
@@ -775,6 +779,10 @@ body{
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-end{
@@ -803,6 +811,10 @@ body{
 
 .gap-14{
   gap: 3.5rem;
+}
+
+.gap-16{
+  gap: 4rem;
 }
 
 .gap-2{
@@ -843,10 +855,6 @@ body{
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-16{
-  gap: 4rem;
 }
 
 .gap-x-0{
@@ -890,6 +898,10 @@ body{
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
 }
 
 .rounded-t-2xl{
@@ -984,6 +996,11 @@ body{
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1042,10 +1059,6 @@ body{
 
 .stroke-white{
   stroke: #fff;
-}
-
-.stroke-black{
-  stroke: #000;
 }
 
 .p-1{
@@ -1108,9 +1121,19 @@ body{
   padding-bottom: 1.25rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-1\.5{
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
 }
 
 .py-14{
@@ -1120,6 +1143,10 @@ body{
 
 .pb-10{
   padding-bottom: 2.5rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .pb-8{
@@ -1138,12 +1165,8 @@ body{
   padding-top: 0.625rem;
 }
 
-.pb-24{
-  padding-bottom: 6rem;
-}
-
-.pt-14{
-  padding-top: 3.5rem;
+.pt-20{
+  padding-top: 5rem;
 }
 
 .text-center{
@@ -1199,6 +1222,11 @@ body{
   line-height: 1rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-black{
   font-weight: 900;
 }
@@ -1249,11 +1277,6 @@ body{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .shadow-2xl{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1298,8 +1321,8 @@ body{
   transition-duration: 700ms;
 }
 
-.duration-1000{
-  transition-duration: 1000ms;
+.duration-300{
+  transition-duration: 300ms;
 }
 
 .ease-in{
@@ -1452,6 +1475,12 @@ figcaption{
   font-family: "Roboto", "sans-serif";
 }
 
+.hover\:scale-105:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:border:hover{
   border-width: 1px;
 }
@@ -1473,11 +1502,6 @@ figcaption{
 
 .hover\:bg-transparent:hover{
   background-color: transparent;
-}
-
-.hover\:bg-\[\#E8E8E8\]:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(232 232 232 / var(--tw-bg-opacity));
 }
 
 .hover\:text-jade:hover{
@@ -1547,6 +1571,10 @@ figcaption{
     height: 200px;
   }
 
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:w-1\/4{
     width: 25%;
   }
@@ -1575,8 +1603,12 @@ figcaption{
     width: 50%;
   }
 
-  .lg\:w-1\/2{
-    width: 50%;
+  .lg\:w-7\/12{
+    width: 58.333333%;
+  }
+
+  .lg\:w-8\/12{
+    width: 66.666667%;
   }
 
   .lg\:max-w-\[450px\]{
@@ -1601,6 +1633,14 @@ figcaption{
 
   .lg\:gap-60{
     gap: 15rem;
+  }
+
+  .lg\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 
   .lg\:bg-jade\/30{
