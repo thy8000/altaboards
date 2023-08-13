@@ -31,7 +31,7 @@ wp_utils_get_component('benefits-list', [
     'benefits_list' => $benefits_list,
 ]);
 
-wp_utils_get_component('front-page/plans');
+wp_utils_get_component('plans');
 
 wp_utils_get_component('call-to-action-contact');
 
