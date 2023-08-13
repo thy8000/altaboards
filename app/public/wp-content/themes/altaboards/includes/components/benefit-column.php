@@ -24,9 +24,15 @@ if (empty($benefit_item)) {
             <?php echo $benefit_item['description'] ?>
         </span>
 
-        <a class="bg-jade text-white py-4 px-10 rounded-full flex gap-3.5 items-center justify-center transition-all duration-500 ease-in hover:bg-transparent hover:border hover:text-jade hover:border-jade max-w-[250px]" href="<?php echo $benefit_item['link'] ?>">
-            <?php esc_html_e('Saiba mais', 'it9-obrasoft') ?>
-        </a>
+        <?php
+        if (!empty($benefit_item['link'])) {
+        ?>
+            <a class="bg-jade text-white py-4 px-10 rounded-full flex gap-3.5 items-center justify-center transition-all duration-500 ease-in hover:bg-transparent hover:border hover:text-jade hover:border-jade max-w-[250px]" href="<?php echo $benefit_item['link'] ?>">
+                <?php esc_html_e('Saiba mais', 'it9-obrasoft') ?>
+            </a>
+        <?php
+        }
+        ?>
     </div>
 
     <div class="flex w-full lg:w-2/5">
