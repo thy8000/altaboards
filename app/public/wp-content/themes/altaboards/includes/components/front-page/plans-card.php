@@ -39,7 +39,7 @@ if ($color === 'jade') {
 
             <hr>
 
-            <h4 class="text-lg font-medium text-gray-900">
+            <h4 class="text-lg font-medium text-gray-900 pt-4">
                 <?php echo esc_html_e('Serviços:') ?>
             </h4>
 

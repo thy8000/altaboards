@@ -4,7 +4,7 @@ wp_utils_verify_abspath();
 
 <div class="flex flex-col py-16 gap-20 justify-center lg:flex-row-reverse">
     <div class="w-full lg:w-6/12">
-        <h2 class="text-4xl text-jade font-medium font-roboto w-full lg:max-w-[450px]">
+        <h2 class="text-4xl text-jade font-medium font-roboto w-full pb-8 lg:max-w-[450px]">
             <?php esc_html_e('Simplificando o controle documental e a gestão de processos', 'it9-obrasoft') ?>
         </h2>
 
@@ -14,6 +14,6 @@ wp_utils_verify_abspath();
     </div>
 
     <div class="w-full lg:w-6/12">
-        <iframe class="w-full h-[200px] md:w-[560px] md:h-[350px]" src="https://www.youtube.com/embed/KnM_QF56yUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="w-full h-[200px] md:h-[350px]" src="https://www.youtube.com/embed/KnM_QF56yUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
