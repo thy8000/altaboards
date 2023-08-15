@@ -29,7 +29,7 @@ $post_categories = get_terms([
 
 <section class="bg-white py-14">
     <div class="custom-container">
-        <div class="flex gap-20 flex-col-reverse lg:flex-row">
+        <div class="flex gap-20 flex-col lg:flex-row">
             <div class="w-full gap-14 flex flex-col lg:gap-10 lg:w-3/4">
                 <?php
                 if (!$posts_list->have_posts()) {
@@ -65,7 +65,7 @@ $post_categories = get_terms([
                 if (!empty($post_categories)) {
                 ?>
                     <div>
-                        <span class="text-2xl font-inter font-medium">Categorias</span>
+                        <span class="text-2xl font-roboto font-medium">Categorias</span>
 
                         <?php
                         foreach ($post_categories as $post_category) {
@@ -73,7 +73,7 @@ $post_categories = get_terms([
                         ?>
                             <ul>
                                 <li class="border-b border-solid border-[#0000001a] py-4">
-                                    <a class="transition-all duration-500 ease-linear hover:text-oldgold" href="<?php echo esc_url($post_category_link) ?>">
+                                    <a class="transition-all duration-500 ease-linear text-midgray hover:text-jade" href="<?php echo esc_url($post_category_link) ?>">
                                         <?php echo esc_html($post_category->name) ?>
                                     </a>
                                 </li>

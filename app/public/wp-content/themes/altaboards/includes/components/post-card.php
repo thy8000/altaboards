@@ -27,14 +27,14 @@ $post_thumbnail_url = !empty(get_the_post_thumbnail_url($post_object->ID)) ? get
         <?php
         if (!empty($post_first_category)) {
         ?>
-            <a class="bg-jade text-white py-1.5 px-6 rounded-full transition-all duration-500 ease-linear hover:bg-jade/70" href="<?php echo esc_url($post_first_category_link) ?>">
+            <a class="bg-jade text-white py-1.5 px-6 rounded-full transition-all duration-500 ease-linear line-clamp-1 hover:bg-jade/70" href="<?php echo esc_url($post_first_category_link) ?>">
                 <?php echo esc_html($post_first_category->name) ?>
             </a>
         <?php
         }
         ?>
 
-        <a href="<?php echo esc_url($post_permalink) ?>" class="line-clamp-2 text-gray-600 text-2xl font-medium font-inter cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70">
+        <a href="<?php echo esc_url($post_permalink) ?>" class="line-clamp-2 text-gray-600 text-2xl font-medium font-roboto cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70">
             <?php echo esc_html($post_object->post_title) ?>
         </a>
 

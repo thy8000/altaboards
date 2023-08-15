@@ -45,7 +45,7 @@ if (empty($featured_first_post)) {
                     }
                     ?>
 
-                    <a class="text-gray-600 text-3xl font-medium font-inter mt-0 mb-0 cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70" href="<?php echo esc_url(get_the_permalink($featured_first_post[0]->ID)) ?>">
+                    <a class="text-gray-600 text-3xl font-medium font-roboto mt-0 mb-0 cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70" href="<?php echo esc_url(get_the_permalink($featured_first_post[0]->ID)) ?>">
                         <?php echo esc_html($featured_first_post[0]->post_title) ?>
                     </a>
 
@@ -80,7 +80,7 @@ if (empty($featured_first_post)) {
                             </div>
 
                             <div class="w-full flex flex-col gap-4 lg:w-5/12">
-                                <a class="text-gray-600 font-medium font-inter text-sm cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70" href="<?php echo esc_url(get_the_permalink($featured_post->ID)) ?>">
+                                <a class="text-gray-600 font-medium font-roboto text-sm cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70" href="<?php echo esc_url(get_the_permalink($featured_post->ID)) ?>">
                                     <?php echo esc_html($featured_post->post_title) ?>
                                 </a>
 
