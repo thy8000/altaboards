@@ -1,40 +1,56 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    @apply font-bold
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    @apply font-bold font-roboto text-jade pb-8
 }
 
-h1 {
-    @apply text-4xl leading-5 pt-2 pb-2
+.post-content h1 {
+    @apply text-4xl leading-5
 }
 
-h2 {
-    @apply text-[1.5em] leading-8 my-[0.83em]
+.post-content h2 {
+    @apply text-[1.5em] leading-8
 }
 
-h3 {
-    @apply text-[1.17em] leading-[1.4rem] my-[1em]
+.post-content h3 {
+    @apply text-[1.17em] leading-[1.4rem]
 }
 
-h4 {
-    @apply text-[1em] leading-6 my-[1.44em]
+.post-content h4 {
+    @apply text-[1em] leading-6
 }
 
-h5 {
-    @apply text-[0.83em] leading-[1.6rem] my-[1.67em]
+.post-content h5 {
+    @apply text-[0.83em] leading-[1.6rem]
 }
 
-h6 {
-    @apply text-[0.67em] leading-7 my-[2.33em]
+.post-content h6 {
+    @apply text-[0.67em] leading-7
 }
 
-p {
-    @apply my-[1em] text-lg
+.post-content p {
+    @apply text-lg text-gray-500 font-roboto pb-8
 }
 
-figcaption {
-    @apply italic
+.post-content figcaption {
+    @apply text-gray-500 italic
+}
+
+.post-content ul {
+    @apply px-8 pb-8 text-gray-500;
+}
+
+.post-content ul li {
+    @apply list-disc
+}
+
+.post-content figure {
+    @apply pb-8
+}
+
+.post-content a {
+    @apply text-jade underline underline-offset-2;
 }
