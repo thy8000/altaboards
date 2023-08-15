@@ -1,0 +1,7 @@
+.page-numbers {
+    @apply font-roboto bg-jade py-[8px] px-[16px] rounded-full
+}
+
+.page-numbers.current {
+    @apply bg-jade/30 text-black font-bold
+}
