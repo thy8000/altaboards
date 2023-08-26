@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon-feature-vertodos</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="008" transform="translate(-892.000000, -168.000000)" fill="#5A5D60" fill-rule="nonzero" stroke="#5A5D60" stroke-width="0.5">
+            <g id="icon-feature-vertodos" transform="translate(893.000000, 169.000000)">
+                <path d="M100.25,-0.25 L100.25,100.25 L-0.25,100.25 L-0.25,-0.25 L100.25,-0.25 Z M96.5216535,22.8287402 L3.47834646,22.8287402 L3.47834646,96.5216535 L96.5216535,96.5216535 L96.5216535,22.8287402 Z M96.5216535,3.47834646 L3.47834646,3.47834646 L3.47834646,19.1003937 L96.5216535,19.1003937 L96.5216535,3.47834646 Z" id="Shape"></path>
+                <rect id="Rectangle" x="7.82086614" y="9.43503937" width="3.72834646" height="3.72834646"></rect>
+                <rect id="Rectangle" x="14.257874" y="9.43503937" width="3.72834646" height="3.72834646"></rect>
+                <rect id="Rectangle" x="20.7145669" y="9.43503937" width="3.72834646" height="3.72834646"></rect>
+                <rect id="Rectangle" x="35.242126" y="9.43503937" width="56.9566929" height="3.72834646"></rect>
+                <path d="M35.742126,28.7854331 L35.742126,61.5492126 L9.43503937,61.5492126 L9.43503937,28.7854331 L35.742126,28.7854331 Z M31.9940945,32.5137795 L13.1437008,32.5137795 L13.1437008,57.8208661 L31.9940945,57.8208661 L31.9940945,32.5137795 Z" id="Shape"></path>
+                <path d="M90.5649606,67.4862205 L90.5649606,90.5649606 L64.257874,90.5649606 L64.257874,67.4862205 L90.5649606,67.4862205 Z M86.8366142,71.2145669 L67.9862205,71.2145669 L67.9862205,86.8366142 L86.8366142,86.8366142 L86.8366142,71.2145669 Z" id="Shape"></path>
+                <path d="M58.3208661,67.4862205 L58.3208661,90.5649606 L9.43503937,90.5649606 L9.43503937,67.4862205 L58.3208661,67.4862205 Z M54.5925197,71.234252 L13.1633858,71.234252 L13.1633858,86.8562992 L54.5925197,86.8562992 L54.5925197,71.234252 Z" id="Shape"></path>
+                <rect id="Rectangle" x="41.6791339" y="28.7854331" width="48.8858268" height="3.72834646"></rect>
+                <rect id="Rectangle" x="41.6791339" y="43.2933071" width="48.8858268" height="3.72834646"></rect>
+                <rect id="Rectangle" x="41.6791339" y="57.8208661" width="48.8858268" height="3.72834646"></rect>
+                <rect id="Rectangle" x="32.0137795" y="77.1712598" width="3.72834646" height="3.72834646"></rect>
+                <rect id="Rectangle" x="38.4507874" y="77.1712598" width="3.72834646" height="3.72834646"></rect>
+                <rect id="Rectangle" x="25.5570866" y="77.1712598" width="3.72834646" height="3.72834646"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
