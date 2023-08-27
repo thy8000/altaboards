@@ -23,16 +23,10 @@ wp_utils_get_component('front-page/hero');
 
 wp_utils_get_component('front-page/features');
 
-wp_utils_get_component('front-page/supplier-management');
-
 wp_utils_get_component('front-page/services');
 
-wp_utils_get_component('benefits-list', [
-    'benefits_list' => $benefits_list,
-]);
+wp_utils_get_component('front-page/support');
 
-wp_utils_get_component('plans');
-
-wp_utils_get_component('call-to-action-contact');
+wp_utils_get_component('front-page/start-now');
 
 wp_utils_get_component('footer/_index');
