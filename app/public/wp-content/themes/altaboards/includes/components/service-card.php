@@ -1,18 +1,32 @@
 <?php
 
-wp_utils_verify_abspath();
-
-$card_info = $args['card_info'] ?? '';
-
-if(empty($card_info)){
-    return;
+if (!defined('ABSPATH')) {
+    exit;
 }
+
+$service_item = $args['card_object'];
 ?>
 
-<div class="flex flex-col w-full gap-4 p-8 border border-[#5B6067] border-opacity-30 rounded-lg bg-white shadow-lg xl:w-[25%] md:w-[45%]">
-    <img class="w-14 h-auto self-center" src="<?php echo $card_info['image'] ?>">
+<div class="case-item-div">
+    <div class="case-item-image">
+        <img class="w-[3.75rem]" src="<?php echo get_template_directory_uri() ?>/assets/images/services-card-<?php echo $service_item['icon'] ?>.svg" height="60" alt="" class="image">
+    </div>
 
-    <span class="self-center text-lg font-roboto font-bold text-jade"><?php echo $card_info['title'] ?></span>
+    <h4 class="case-item-title">
+        <?php echo $service_item['title'] ?>
+    </h4>
 
-    <span class="text-center self-center text-base font-normal text-midgray"><?php echo $card_info['description'] ?></span>
+    <p class="case-item-text">
+        <?php echo $service_item['description'] ?>
+    </p>
+
+    <p class="case-item-list">
+        <?php
+
+        foreach ($service_item['list'] as $list_item) {
+            echo '• ' . $list_item . '<br>';
+        }
+
+        ?>
+    </p>
 </div>
