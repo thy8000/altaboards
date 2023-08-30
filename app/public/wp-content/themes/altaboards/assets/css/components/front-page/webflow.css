@@ -57,10 +57,11 @@ a {
     margin-right: auto;
     padding: 120px 40px 60px;
     display: block;
-    position: static;
+    position: relative;
     top: 0;
     left: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 .body {

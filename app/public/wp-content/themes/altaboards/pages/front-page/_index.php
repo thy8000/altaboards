@@ -23,7 +23,9 @@ wp_utils_get_component('front-page/hero');
 
 wp_utils_get_component('front-page/features');
 
-wp_utils_get_component('front-page/services');
+wp_utils_get_component('services', [
+    'title' => "Escolha um modelo pronto ou crie e personalize do seu jeito",
+]);
 
 wp_utils_get_component('front-page/support');
 

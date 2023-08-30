@@ -25,7 +25,7 @@ wp_utils_get_component('hero', [
 ]);
 ?>
 
-<section class="bg-slate-50">
+<section class="bg-white">
     <div class="custom-container">
         <?php
         wp_utils_get_component('services-title', [
@@ -33,10 +33,10 @@ wp_utils_get_component('hero', [
             'bottom_title' => esc_html__('Saiba as vantagens do nosso software, e o que a nossa ferramenta de gerenciamento de fornecedores pode auxiliar no seu negócio.', 'it9-obrasoft'),
             'show_additional_row' => false,
         ]);
-
-        wp_utils_get_component('services-card-list');
         ?>
     </div>
+
+    <?php wp_utils_get_component('services') ?>
 </section>
 
 <?php

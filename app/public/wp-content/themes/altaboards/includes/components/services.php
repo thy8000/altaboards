@@ -76,9 +76,24 @@ $services_card_list = [
 ?>
 
 <div id="Section-Cases" class="cases">
-    <div data-w-id="7948b345-27d9-f568-d1c0-7e3adda72960" class="center-title-container">
-        <h3 class="premium-title">Escolha um modelo pronto ou crie e personalize <strong>do seu jeito</strong></h3>
-    </div>
+    <?php
+
+    if (!empty($args['title'])) {
+
+    ?>
+
+        <div data-w-id="7948b345-27d9-f568-d1c0-7e3adda72960" class="center-title-container">
+            <h3 class="premium-title">
+                <?php echo esc_html($args['title']) ?>
+            </h3>
+        </div>
+
+    <?php
+
+    }
+
+    ?>
+
     <div data-w-id="2788e480-576c-445d-0b27-5c15e5409f78" class="cases-container">
         <?php
 
@@ -90,5 +105,5 @@ $services_card_list = [
 
         ?>
     </div>
-    <a href="/plans" class="cases-button w-button">escolha um plano </a>
+    <a href="/services/#plans" class="cases-button w-button">escolha um plano </a>
 </div>

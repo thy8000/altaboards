@@ -43,7 +43,7 @@ $plans_list = [
 ];
 ?>
 
-<section class="bg-orange-50">
+<section id="plans" class="bg-orange-50">
     <div class="custom-container">
         <div class="flex flex-col py-16 justify-center items-center gap-20">
             <div class="flex flex-col text-center">
