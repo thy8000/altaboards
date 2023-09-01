@@ -42,8 +42,8 @@ $plans_list = [
             'url' => '/contact',
         ],
         'price' => [
-            'monthly' => '29,90',
-            'yearly'  => '25,42',
+            'monthly' => 'R$ 29,90',
+            'yearly'  => 'R$ 25,42',
         ],
         'description' => esc_html__('Ideal para pequenas empresas e empreendedores individuais que desejam um controle básico sobre seus fornecedores.', 'it9-obrasoft'),
         'services' => [
@@ -64,8 +64,8 @@ $plans_list = [
             'url' => '/contact',
         ],
         'price' => [
-            'monthly' => '79,00',
-            'yearly'  => '67,15',
+            'monthly' => 'R$ 79,00',
+            'yearly'  => 'R$ 67,15',
         ],
         'description' => esc_html__('Plano ideal para atender às necessidades de grandes empresas e organizações que desejam gerenciar os fornecedores de forma colaborativa.', 'it9-obrasoft'),
         'services' => [
@@ -86,8 +86,8 @@ $plans_list = [
             'url' => '/contact',
         ],
         'price' => [
-            'monthly' => '129,00',
-            'yearly'  => '109,65',
+            'monthly' => 'R$ 129,00',
+            'yearly'  => 'R$ 109,65',
         ],
         'description' => esc_html__('Para empresas grandes e organizações que desejam gerenciar os fornecedores de forma colaborativa.', 'it9-obrasoft'),
         'services' => [
@@ -123,7 +123,7 @@ $plans_list = [
 ];
 ?>
 
-<div class="flex flex-col w-full bg-white rounded-2xl shadow-2xl lg:w-4/12" href="<?php echo esc_url($page_contact_link) ?>">
+<div class="flex flex-col w-full bg-white rounded-2xl shadow-2xl lg:w-full" href="<?php echo esc_url($page_contact_link) ?>">
     <div class="<?php echo esc_attr($plans_list[$args['plan_slug']]['color']['bg']) ?> w-full rounded-t-2xl py-4">
         <h2 class="text-2xl font-medium text-center my-0 py-3 text-white">
             <?php echo $plans_list[$args['plan_slug']]['title'] ?>
@@ -194,7 +194,7 @@ $plans_list = [
             </a>
         </div>
 
-        <h3 class="text-base font-medium text-center my-0 text-gray-700 h-full pb-8 lg:pb-0 lg:h-[200px] xl:h-[140px]">
+        <h3 class="text-base font-medium text-center my-0 text-gray-700 h-auto pb-8 lg:pb-0 lg:h-[200px] xl:h-[140px]">
             <?php echo $plans_list[$args['plan_slug']]['description'] ?>
         </h3>
 

@@ -44,7 +44,9 @@ wp_utils_get_component('benefits-list', [
     'benefits_list' => $benefits_list,
 ]);
 
-wp_utils_get_component('plans');
+wp_utils_get_component('plans', [
+    'plans_slug' => ['free', 'advanced', 'pro'],
+]);
 
 wp_utils_get_component('call-to-action-contact');
 

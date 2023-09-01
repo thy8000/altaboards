@@ -2,7 +2,10 @@
 
 wp_utils_verify_abspath();
 
-$plans_slug_list = ['free', 'advanced', 'pro'];
+if(empty($args['plans_slug'])){
+    return;
+}
+
 ?>
 
 <section id="plans" class="bg-orange-50">
@@ -22,9 +25,9 @@ $plans_slug_list = ['free', 'advanced', 'pro'];
                 </h4>
             </div>
 
-            <div class="flex gap-6 flex-col lg:flex-row">
+            <div class="grid grid-col-1 lg:grid-cols-3 gap-6">
                 <?php
-                foreach ($plans_slug_list as $plan_slug) {
+                foreach ($args['plans_slug'] as $plan_slug) {
                 ?>
                     <?php wp_utils_get_component('front-page/plans-card', ['plan_slug' => $plan_slug]) ?>
                 <?php
