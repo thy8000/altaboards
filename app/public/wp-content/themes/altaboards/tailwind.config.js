@@ -36,7 +36,7 @@ module.exports = {
       midgray: "#5C5C63",
       apple: "#6C9C44",
       grayLight: '#F1F1F1',
-    },
+    }
   },
   plugins: [],
 }

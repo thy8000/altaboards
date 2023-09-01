@@ -684,6 +684,18 @@ body{
   margin-top: 4rem;
 }
 
+.mt-\[7px\]{
+  margin-top: 7px;
+}
+
+.mt-\[6px\]{
+  margin-top: 6px;
+}
+
+.mt-\[5px\]{
+  margin-top: 5px;
+}
+
 .line-clamp-1{
   overflow: hidden;
   display: -webkit-box;
@@ -1146,9 +1158,29 @@ body{
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
-.bg-grayLight{
+.bg-green-400{
   --tw-bg-opacity: 1;
-  background-color: rgb(241 241 241 / var(--tw-bg-opacity));
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-sky-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
+}
+
+.bg-rose-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 63 94 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -1181,6 +1213,26 @@ body{
 
 .fill-yellow-500{
   fill: #eab308;
+}
+
+.fill-green-400{
+  fill: #4ade80;
+}
+
+.fill-sky-300{
+  fill: #7dd3fc;
+}
+
+.fill-rose-500{
+  fill: #f43f5e;
+}
+
+.fill-yellow-400{
+  fill: #facc15;
+}
+
+.fill-gray-800{
+  fill: #1f2937;
 }
 
 .stroke-amber-500{
@@ -1364,6 +1416,10 @@ body{
   padding-top: 1rem;
 }
 
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1474,6 +1530,41 @@ body{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.text-green-300{
+  --tw-text-opacity: 1;
+  color: rgb(134 239 172 / var(--tw-text-opacity));
+}
+
+.text-rose-300{
+  --tw-text-opacity: 1;
+  color: rgb(253 164 175 / var(--tw-text-opacity));
+}
+
+.text-sky-300{
+  --tw-text-opacity: 1;
+  color: rgb(125 211 252 / var(--tw-text-opacity));
+}
+
+.text-yellow-300{
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
+.text-gray-300{
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .shadow-2xl{
@@ -4545,6 +4636,10 @@ html.w-mod-js [data-ix="faq-accordion"] {
     height: 200px;
   }
 
+  .lg\:h-\[300px\]{
+    height: 300px;
+  }
+
   .lg\:w-1\/2{
     width: 50%;
   }
@@ -4680,6 +4775,10 @@ html.w-mod-js [data-ix="faq-accordion"] {
 @media (min-width: 1280px){
   .xl\:h-\[140px\]{
     height: 140px;
+  }
+
+  .xl\:h-\[200px\]{
+    height: 200px;
   }
 
   .xl\:w-\[25\%\]{
