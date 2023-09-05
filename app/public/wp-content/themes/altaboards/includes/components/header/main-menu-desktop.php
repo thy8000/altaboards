@@ -12,7 +12,7 @@ $home_url = get_home_url();
         <img class="w-[200px]" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/altaboards-logo.svg') ?>">
     </a>
 
-    <ul class="flex gap-x-6 justify-center items-center font-roboto">
+    <ul class="flex gap-x-6 justify-center items-center font-cabin">
         <?php
         foreach ($menu_items as $menu_item) {
             $menu_item_url = $menu_item->url;

@@ -16,7 +16,7 @@ if (empty($benefit_item)) {
 
 <div class="w-full flex flex-col-reverse gap-14 <?php echo $is_reverse ?>">
     <div class="flex flex-col gap-5 w-full lg:w-3/5">
-        <span class="text-jade text-4xl font-roboto">
+        <span class="text-jade text-4xl font-cabin">
             <?php echo $benefit_item['title'] ?>
         </span>
 

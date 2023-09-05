@@ -10,7 +10,7 @@ $features_background_image = get_template_directory_uri() . '/assets/images/fron
         <div class="flex flex-col-reverse py-16 justify-center lg:flex-row">
             <div class="w-full flex flex-col gap-x-5 lg:w-6/12">
                 <div class="pb-10">
-                    <h2 class="text-4xl text-jade font-medium font-roboto pb-8 lg:max-w-[450px]">
+                    <h2 class="text-4xl text-jade font-medium font-cabin pb-8 lg:max-w-[450px]">
                         <?php esc_html_e('Esteja no controle do seu negócio e dos seus clientes, conheça a máxima eficiência da sua empresa.', 'it9-obrasoft') ?>
                     </h2>
 

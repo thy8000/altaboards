@@ -15,7 +15,7 @@ if (empty($related_posts)) {
     <div class="custom-container">
         <div class="flex flex-col gap-10 py-14">
             <div class="text-start w-full lg:text-center">
-                <span class="text-4xl text-gray-600 font-roboto font-medium">
+                <span class="text-4xl text-gray-600 font-cabin font-medium">
                     <?php esc_html_e('Artigos relacionados', 'it9-obrasoft') ?>
                 </span>
             </div>
@@ -48,7 +48,7 @@ if (empty($related_posts)) {
                             </div>
                         </a>
 
-                        <a href="<?php echo esc_url($post_url) ?>" class="text-lg font-roboto font-medium transition-all duration-500 ease-linear text-gray-600 hover:text-jade">
+                        <a href="<?php echo esc_url($post_url) ?>" class="text-lg font-cabin font-medium transition-all duration-500 ease-linear text-gray-600 hover:text-jade">
                             <?php echo esc_html($post_object->post_title) ?>
                         </a>
                     </div>

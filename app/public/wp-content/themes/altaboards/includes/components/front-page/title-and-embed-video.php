@@ -4,7 +4,7 @@ wp_utils_verify_abspath();
 
 <div class="flex flex-col py-16 gap-20 justify-center lg:flex-row-reverse">
     <div class="w-full lg:w-6/12">
-        <h2 class="text-4xl text-jade font-medium font-roboto w-full pb-8 lg:max-w-[450px]">
+        <h2 class="text-4xl text-jade font-medium font-cabin w-full pb-8 lg:max-w-[450px]">
             <?php esc_html_e('Simplificando o controle documental e a gestão de processos', 'it9-obrasoft') ?>
         </h2>
 

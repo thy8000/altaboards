@@ -34,7 +34,7 @@ $post_thumbnail_url = !empty(get_the_post_thumbnail_url($post_object->ID)) ? get
         }
         ?>
 
-        <a href="<?php echo esc_url($post_permalink) ?>" class="line-clamp-2 text-gray-600 text-2xl font-medium font-roboto cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70">
+        <a href="<?php echo esc_url($post_permalink) ?>" class="line-clamp-2 text-gray-600 text-2xl font-medium font-cabin cursor-pointer transition-all duration-500 ease-linear hover:text-jade/70">
             <?php echo esc_html($post_object->post_title) ?>
         </a>
 

@@ -17,14 +17,14 @@ $bottom_title = $args['bottom_title'] ?? '';
                 <?php
                 if (!empty($top_title)) {
                 ?>
-                    <h2 class="text-xl text-gray-700 text-center font-bold font-roboto my-0 lg:text-start">
+                    <h2 class="text-xl text-gray-700 text-center font-bold font-cabin my-0 lg:text-start">
                         <?php echo $top_title ?>
                     </h2>
                 <?php
                 }
                 if (!empty($main_title)) {
                 ?>
-                    <h2 class="text-5xl text-jade font-normal font-roboto max-w-[800px] text-center my-0 lg:text-6xl">
+                    <h2 class="text-5xl text-jade font-normal font-cabin max-w-[800px] text-center my-0 lg:text-6xl">
                         <?php echo $main_title ?>
                     </h2>
                 <?php

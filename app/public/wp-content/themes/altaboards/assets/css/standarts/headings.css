@@ -4,7 +4,7 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    @apply font-bold font-roboto text-jade pb-8
+    @apply font-bold font-cabin text-jade pb-8
 }
 
 .post-content h1 {
@@ -32,7 +32,7 @@
 }
 
 .post-content p {
-    @apply text-lg text-gray-500 font-roboto pb-8
+    @apply text-lg text-gray-500 font-open-sans pb-8
 }
 
 .post-content figcaption {

@@ -16,7 +16,7 @@ if (empty($category_object)) {
     <div class="flex">
         <div class="w-full">
             <div class="bg-jade py-20">
-                <h1 class="text-center font-roboto text-white text-5xl">
+                <h1 class="text-center font-cabin text-white text-5xl">
                     <?php echo esc_html($category_name) ?>
                 </h1>
             </div>

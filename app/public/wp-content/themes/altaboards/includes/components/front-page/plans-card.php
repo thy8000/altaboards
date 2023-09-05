@@ -133,7 +133,7 @@ $plans_list = [
     <div class="p-10">
         <div class="flex flex-col items-center gap-5 pb-5">
             <div class="text-midgray">
-                <span class="font-bold text-4xl font-roboto <?php echo esc_attr($plans_list[$args['plan_slug']]['color']['text']) ?>">
+                <span class="font-bold text-4xl font-cabin <?php echo esc_attr($plans_list[$args['plan_slug']]['color']['text']) ?>">
                     <?php
 
                     echo esc_html($plans_list[$args['plan_slug']]['price']['monthly']);
@@ -164,7 +164,7 @@ $plans_list = [
 
                     ou
 
-                    <span class="font-roboto font-bold <?php echo esc_attr($plans_list[$args['plan_slug']]['color']['text']) ?>">
+                    <span class="font-cabin font-bold <?php echo esc_attr($plans_list[$args['plan_slug']]['color']['text']) ?>">
                         R$ <?php echo esc_html($plans_list[$args['plan_slug']]['price']['monthly']) ?>
                     </span>
 

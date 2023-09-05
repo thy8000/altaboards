@@ -16,7 +16,7 @@ $home_page_url = get_home_url();
                 </div>
 
                 <div class="flex flex-col gap-10">
-                    <h1 class="font-roboto text-3xl text-jade">
+                    <h1 class="font-cabin text-3xl text-jade">
                         <?php esc_html_e('Oops! Página não encontrada.', 'it9-obrasoft') ?>
                     </h1>
 

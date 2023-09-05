@@ -38,7 +38,7 @@ $total_elements = count($timeline_steps);
         ?>
             <li class="flex flex-col-reverse z-20 gap-10 <?php echo esc_attr($is_inverted) ?>">
                 <div class="w-full lg:w-5/12">
-                    <div class="flex flex-col gap-2 bg-jade p-14 rounded-lg shadow-lg font-roboto lg:bg-jade/30">
+                    <div class="flex flex-col gap-2 bg-jade p-14 rounded-lg shadow-lg font-cabin lg:bg-jade/30">
                         <span>
                             <?php echo $timeline['description'] ?>
                         </span>

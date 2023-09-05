@@ -1,5 +1,5 @@
 .page-numbers {
-    @apply font-roboto bg-jade py-[8px] px-[16px] rounded-full
+    @apply font-cabin bg-jade py-[8px] px-[16px] rounded-full
 }
 
 .page-numbers.current {

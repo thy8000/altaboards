@@ -65,7 +65,7 @@ $post_categories = get_terms([
                 if (!empty($post_categories)) {
                 ?>
                     <div>
-                        <span class="text-2xl font-roboto font-medium">Categorias</span>
+                        <span class="text-2xl font-cabin font-medium">Categorias</span>
 
                         <?php
                         foreach ($post_categories as $post_category) {

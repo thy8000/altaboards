@@ -42,7 +42,7 @@ $author_name = !empty(get_the_author_meta('first_name', $author_ID)) ? get_the_a
                             <?php echo esc_html($post_formatted_date) ?>
                         </span>
 
-                        <h1 class="text-white text-3xl font-roboto font-semibold">
+                        <h1 class="text-white text-3xl font-cabin font-semibold">
                             <?php echo esc_html($post_title) ?>
                         </h1>
 
@@ -56,7 +56,7 @@ $author_name = !empty(get_the_author_meta('first_name', $author_ID)) ? get_the_a
                         }
                         ?>
 
-                        <span class="text-white font-roboto text-xs">
+                        <span class="text-white font-cabin text-xs">
                             <?php echo esc_html('Tempo de leitura: 5 minutos') ?>
                         </span>
                     </div>

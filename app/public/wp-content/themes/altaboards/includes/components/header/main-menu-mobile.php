@@ -20,7 +20,7 @@ $home_url = get_home_url();
         <?php wp_utils_load_svg('assets/images/search.svg', 'stroke-white w-8 pt-2.5') ?>
     </div>
 
-    <ul class="main-menu-mobile-items font-roboto flex-col fixed bg-white top-0 h-full w-full -left-full transition-all duration-500 ease-in-out">
+    <ul class="main-menu-mobile-items font-cabin flex-col fixed bg-white top-0 h-full w-full -left-full transition-all duration-500 ease-in-out">
         <div class="flex relative">
             <img class="w-60 p-8" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/altaboards-logo.svg') ?>">
 

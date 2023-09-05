@@ -12,7 +12,7 @@ $show_additional_row = $args['show_additional_row'] ?? false;
         <?php
         if (!empty($main_title)) {
         ?>
-            <h2 class="text-4xl text-jade font-medium font-roboto w-full my-0 pb-8 lg:max-w-[600px] lg:text-5xl">
+            <h2 class="text-4xl text-jade font-medium font-cabin w-full my-0 pb-8 lg:max-w-[600px] lg:text-5xl">
                 <?php echo $main_title ?>
             </h2>
         <?php
@@ -32,7 +32,7 @@ $show_additional_row = $args['show_additional_row'] ?? false;
     ?>
         <div class="flex flex-col gap-10 lg:flex-row">
             <div class="w-full lg:w-6/12">
-                <h3 class="text-3xl text-gray-700 font-medium font-roboto my-0 pb-8 lg:max-w-[450px] lg:text-start">
+                <h3 class="text-3xl text-gray-700 font-medium font-cabin my-0 pb-8 lg:max-w-[450px] lg:text-start">
                     <?php esc_html_e('Evite surpresas com riscos desnecessários', 'it9-obrasoft') ?>
                 </h3>
 
@@ -42,7 +42,7 @@ $show_additional_row = $args['show_additional_row'] ?? false;
             </div>
 
             <div class="w-full lg:w-6/12">
-                <h3 class="text-3xl text-gray-700 font-medium font-roboto my-0 pb-8 lg:max-w-[450px] lg:text-start">
+                <h3 class="text-3xl text-gray-700 font-medium font-cabin my-0 pb-8 lg:max-w-[450px] lg:text-start">
                     <?php esc_html_e('Pague apenas o seu fornecedor “compliance”', 'it9-obrasoft') ?>
                 </h3>
 
