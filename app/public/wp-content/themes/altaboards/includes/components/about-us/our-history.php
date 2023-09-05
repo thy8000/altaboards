@@ -13,6 +13,12 @@ wp_utils_verify_abspath();
                 </h2>
             </div>
 
+            <div class="w-full flex justify-center">
+                <div class="flex">
+                    <img class="w-full h-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/about-us-image.png">
+                </div>
+            </div>
+            
             <div class="lg:flex-row flex-col w-full flex gap-10">
                 <div class="lg:w-1/2 w-full flex justify-center">
                     <div class="lg:text-justify text-start text-lg text-midgray max-w-[450px]">
@@ -24,12 +30,6 @@ wp_utils_verify_abspath();
                     <div class="lg:text-justify text-start text-lg text-midgray max-w-[450px]">
                         <?php esc_html_e('Ao longo dos anos colecionamos amigos, clientes, parceiros e pessoas que compõem um time empolgado e apaixonado, com sinergia, honestidade e transparência em qualquer parte do nosso trabalho.', 'it9-obrasoft') ?>
                     </div>
-                </div>
-            </div>
-
-            <div class="w-full flex justify-center">
-                <div class="flex">
-                    <img class="w-full h-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/time-obrasoft.jpg">
                 </div>
             </div>
         </div>

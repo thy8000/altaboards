@@ -29,7 +29,7 @@ wp_utils_get_component('hero', [
     <div class="custom-container">
         <?php
         wp_utils_get_component('services-title', [
-            'main_title' => esc_html__('O que o Altabase tem a oferecer', 'it9-obrasoft'),
+            'main_title' => esc_html__('O que o Altaboards tem a oferecer', 'it9-obrasoft'),
             'bottom_title' => esc_html__('Saiba as vantagens do nosso software, e o que a nossa ferramenta de gerenciamento de fornecedores pode auxiliar no seu negócio.', 'it9-obrasoft'),
             'show_additional_row' => false,
         ]);

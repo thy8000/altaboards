@@ -1,0 +1,3 @@
+.wpforms-field input, .wpforms-field textarea {
+    @apply bg-transparent border-0 border-solid border-[#000] border-b rounded-none focus:border-b focus:shadow-none focus:outline-0 !important
+}
