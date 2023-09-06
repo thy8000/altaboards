@@ -26,4 +26,8 @@ $home_url = get_home_url();
         }
         ?>
     </ul>
+
+    <a class="bg-jade text-white py-4 px-10 rounded-full flex gap-3.5 items-center justify-center transition-all duration-500 ease-in hover:bg-transparent hover:border hover:text-jade hover:border-jade max-w-[250px]" href="https://app.altaboards.com/#/login" target="_blank">
+        <?php esc_html_e('Login', 'it9-obrasoft') ?>
+    </a>
 </div>

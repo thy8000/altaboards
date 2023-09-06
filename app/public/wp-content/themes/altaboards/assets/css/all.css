@@ -688,6 +688,10 @@ body{
   margin-top: 5px;
 }
 
+.ml-4{
+  margin-left: 1rem;
+}
+
 .line-clamp-1{
   overflow: hidden;
   display: -webkit-box;
@@ -4737,10 +4741,6 @@ html.w-mod-js [data-ix="faq-accordion"] {
 
   .lg\:gap-\[1\%\]{
     gap: 1%;
-  }
-
-  .lg\:gap-\[3\.75rem\]{
-    gap: 3.75rem;
   }
 
   .lg\:bg-jade\/30{
