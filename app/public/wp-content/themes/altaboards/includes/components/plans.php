@@ -21,7 +21,7 @@ if(empty($args['plans_slug'])){
                 </h3>
 
                 <h4 class="my-0 text-2xl font-medium text-midgray pt-10">
-                    <?php echo esc_html_e('Altabase permite que você cria uma gestão de fornecedores poderosa', 'it9-obrasoft') ?>
+                    <?php echo esc_html_e('Altaboards permite que você cria uma gestão de fornecedores poderosa', 'it9-obrasoft') ?>
                 </h4>
             </div>
 

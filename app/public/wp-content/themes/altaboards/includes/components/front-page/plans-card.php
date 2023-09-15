@@ -49,7 +49,6 @@ $plans_list = [
         'services' => [
             esc_html__('3 Quadros ', 'it9-obrasoft'),
             esc_html__('100 linhas', 'it9-obrasoft'),
-            esc_html__('APP QR Code', 'it9-obrasoft'),
         ],
     ],
     'advanced' => [
@@ -65,13 +64,12 @@ $plans_list = [
         ],
         'price' => [
             'monthly' => 'R$ 79,00',
-            'yearly'  => 'R$ 67,15',
+            'yearly'  => 'R$ 69,15',
         ],
         'description' => esc_html__('Plano ideal para atender às necessidades de grandes empresas e organizações que desejam gerenciar os fornecedores de forma colaborativa.', 'it9-obrasoft'),
         'services' => [
             esc_html__('Quadros ilimitados', 'it9-obrasoft'),
             esc_html__('500 linhas', 'it9-obrasoft'),
-            esc_html__('APP QR Code', 'it9-obrasoft'),
         ],
     ],
     'pro' => [
@@ -87,14 +85,13 @@ $plans_list = [
         ],
         'price' => [
             'monthly' => 'R$ 129,00',
-            'yearly'  => 'R$ 109,65',
+            'yearly'  => 'R$ 100,00',
         ],
         'description' => esc_html__('Para empresas grandes e organizações que desejam gerenciar os fornecedores de forma colaborativa.', 'it9-obrasoft'),
         'services' => [
             esc_html__('Quadros ilimitados', 'it9-obrasoft'),
             esc_html__('1000 linhas', 'it9-obrasoft'),
             esc_html__('Integração com API', 'it9-obrasoft'),
-            esc_html__('APP QR Code', 'it9-obrasoft'),
         ],
     ],
     'enterprise' => [
@@ -117,7 +114,6 @@ $plans_list = [
             esc_html__('Quadros ilimitados', 'it9-obrasoft'),
             esc_html__('Linhas ilimitadas', 'it9-obrasoft'),
             esc_html__('Integração com API', 'it9-obrasoft'),
-            esc_html__('APP QR Code', 'it9-obrasoft'),
         ],
     ],
 ];
@@ -165,7 +161,7 @@ $plans_list = [
                     ou
 
                     <span class="font-cabin font-bold <?php echo esc_attr($plans_list[$args['plan_slug']]['color']['text']) ?>">
-                        R$ <?php echo esc_html($plans_list[$args['plan_slug']]['price']['monthly']) ?>
+                        R$ <?php echo esc_html($plans_list[$args['plan_slug']]['price']['yearly']) ?>
                     </span>
 
                     anual
