@@ -15,10 +15,6 @@ $business_address = [
         'link' => 'mailto:contato@obrasoft.com.br',
         'label' => esc_html('contato@obrasoft.com.br'),
     ],
-    'phone' => [
-        'link' => 'tel:+1140637425',
-        'label' => esc_html('(11) 4063-7425'),
-    ],
 ];
 ?>
 
