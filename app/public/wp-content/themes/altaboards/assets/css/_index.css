@@ -3,6 +3,7 @@
 @import url("standarts/headings.css");
 @import url("standarts/fonts.css");
 
+@import url("components/header/main-menu-desktop.css");
 @import url("components/header/main-menu-mobile.css");
 
 @import url("components/footer/logo-and-social-links.css");

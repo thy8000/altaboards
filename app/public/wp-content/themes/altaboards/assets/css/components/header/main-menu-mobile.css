@@ -1,3 +1,51 @@
-.main-menu-mobile-items.open {
-    @apply flex left-0;
-}
+.main-menu-mobile {
+    @apply -left-[100vw];
+  }
+  
+  .main-menu-mobile.open {
+    @apply left-0;
+  }
+  
+  .main-menu-mobile {
+    @apply absolute top-[85px] w-full h-screen bg-white;
+  }
+  
+  .main-menu-mobile .menu-item {
+    @apply relative border-b border-black border-solid text-black font-cabin;
+  }
+  
+  .main-menu-mobile .menu-item a {
+    @apply flex items-center px-4 h-[50px];
+  }
+  
+  .main-menu-mobile .menu-item.menu-item-has-children:after {
+    content: url('../images/arrow.svg');
+  
+    @apply absolute right-[25px] top-[18px] inline-block;
+  }
+  
+  .main-menu-mobile .sub-menu {
+    @apply bg-grayTertiary hidden py-4;
+  }
+  
+  .main-menu-mobile .sub-menu .menu-item:nth-last-of-type(1) {
+    @apply border-0;
+  }
+  
+  .main-menu-mobile .sub-menu .menu-item.menu-item-has-children:after {
+    content: '';
+  
+    @apply absolute right-[25px] top-[18px] inline-block;
+  }
+  
+  .main-menu-mobile .menu-item.menu-item-has-children.open:after {
+    transform: rotate(180deg);
+  }
+  
+  .main-menu-mobile .menu-item-has-children.open .sub-menu {
+    @apply block;
+  }
+  
+  .main-menu-mobile .sub-menu .menu-item-has-children .sub-menu {
+    @apply hidden;
+  }

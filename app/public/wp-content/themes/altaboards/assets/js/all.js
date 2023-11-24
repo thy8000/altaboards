@@ -1,26 +1,40 @@
 /**
  * Header
  */
-function openMenu(mainMenuItems) {
-    mainMenuItems.classList.add("open");
+
+let mainMenuButtonOpen = document.querySelector(".main-menu-button-open");
+let mainMenuButtonClose = document.querySelector(".main-menu-button-close");
+
+let mainMenuItems = document.querySelector(".main-menu-mobile");
+
+function openMenu() {
+  mainMenuItems.classList.add("open");
+
+  mainMenuButtonOpen.classList.add("hidden");
+  mainMenuButtonClose.classList.remove("hidden");
 }
 
-function closeMenu(mainMenuItems) {
-    mainMenuItems.classList.remove("open");
+function closeMenu() {
+  mainMenuItems.classList.remove("open");
+
+  mainMenuButtonOpen.classList.remove("hidden");
+  mainMenuButtonClose.classList.add("hidden");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    let mainMenuButtonOpen = document.querySelector(".main-menu-button-open");
+  mainMenuButtonOpen.addEventListener("click", function () {
+    openMenu();
+  });
 
-    let mainMenuButtonClose = document.querySelector(".main-menu-button-close");
+  mainMenuButtonClose.addEventListener("click", function () {
+    closeMenu();
+  });
+});
 
-    let mainMenuItems = document.querySelector(".main-menu-mobile-items");
+jQuery(document).ready(function () {
+  jQuery(".menu-item-has-children").click(function (e) {
+    e.preventDefault();
 
-    mainMenuButtonOpen.addEventListener("click", function () {
-        openMenu(mainMenuItems);
-    });
-
-    mainMenuButtonClose.addEventListener("click", function () {
-        closeMenu(mainMenuItems);
-    });
+    jQuery(this).toggleClass("open");
+  });
 });

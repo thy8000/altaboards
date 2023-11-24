@@ -1,0 +1,43 @@
+.main-menu-desktop {
+    @apply flex gap-x-6 justify-center items-center font-cabin;
+}
+
+.main-menu-desktop .menu-item {
+    @apply py-[25px];
+}
+
+.main-menu-desktop .menu-item a {
+    @apply text-black hover:text-jade transition-all duration-500 ease-linear
+}
+
+.main-menu-desktop .sub-menu {
+    @apply hidden;
+}
+
+.main-menu-desktop .menu-item:hover .sub-menu {
+    @apply block absolute top-[75px] bg-white shadow-lg border-t-jade border-2 border-transparent transition-all duration-500 ease-linear;
+
+    animation: fadeIn 0.5s;
+}
+
+.main-menu-desktop .sub-menu .menu-item {
+    @apply relative p-[20px] w-[200px];
+}
+
+.main-menu-desktop .sub-menu .menu-item .sub-menu {
+    @apply hidden;
+}
+
+.main-menu-desktop .sub-menu .menu-item:hover .sub-menu {
+    @apply block absolute -top-[1.5px] left-[200px] max-w-[250px];
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
