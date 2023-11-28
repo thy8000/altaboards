@@ -676,6 +676,14 @@ body{
   margin-top: 5px;
 }
 
+.ml-\[5\%\]{
+  margin-left: 5%;
+}
+
+.mr-\[5\%\]{
+  margin-right: 5%;
+}
+
 .line-clamp-1{
   overflow: hidden;
   display: -webkit-box;
@@ -711,6 +719,10 @@ body{
 
 .hidden{
   display: none;
+}
+
+.aspect-video{
+  aspect-ratio: 16 / 9;
 }
 
 .h-16{
@@ -759,6 +771,14 @@ body{
 
 .h-full{
   height: 100%;
+}
+
+.h-\[unset\]{
+  height: unset;
+}
+
+.\!h-\[unset\]{
+  height: unset !important;
 }
 
 .w-0{
@@ -815,6 +835,18 @@ body{
 
 .w-full{
   width: 100%;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.\!w-1\/2{
+  width: 50% !important;
+}
+
+.\!w-full{
+  width: 100% !important;
 }
 
 .max-w-\[250px\]{
@@ -916,6 +948,10 @@ body{
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .justify-around{
@@ -4814,6 +4850,10 @@ html.w-mod-js [data-ix="faq-accordion"] {
 
   .lg\:w-full{
     width: 100%;
+  }
+
+  .lg\:\!w-1\/2{
+    width: 50% !important;
   }
 
   .lg\:max-w-\[450px\]{
