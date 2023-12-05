@@ -35,8 +35,8 @@ wp_footer();
                     echo sprintf(
                         esc_html__('© %s - Altaboards - Hospedado e monitorado pela %s - %s, todos os direitos reservados', 'it9-obrasoft'),
                         date('Y'), 
-                        '<a href="#">IT9</a>',
-                        '<a href="#">ABCTudo</a>',
+                        '<a class="hover:text-gray-400 transition-all duration-500 ease-linear" href="https://it9.com.br/" target="_blank">IT9</a>',
+                        '<a class="hover:text-gray-400 transition-all duration-500 ease-linear" href="https://www.abctudo.com.br/" target="_blank">ABCTudo</a>',
                     );
                 ?>
             </div>
